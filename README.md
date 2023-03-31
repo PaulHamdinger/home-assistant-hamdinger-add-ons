@@ -1,10 +1,8 @@
-# home-assistant-hamdinger-addons
-
-Cloned from : https://github.com/alex107ivanov/hassio-addons
+# home-assistant-hamdinger-add-ons
 
 ## Installation
 
-1. Add this repository to Home Assistant : https://www.hamdinger.com/home-assistant-hamdinger-addons
+1. Add this repository to Home Assistant.
 2. After some time new addons will appear in list of available addons.
 3. Install needed add-on.
 4. Start installed add-on.
@@ -12,7 +10,7 @@ Cloned from : https://github.com/alex107ivanov/hassio-addons
 
 ## Watchdog Dev
 
-Plugin activates `/dev/watchdog` hardware watchdog timer for the Raspberry Pi. Will restart the server on no response.
+This add-on uses the Raspberry Pi's `/dev/watchdog` hardware watchdog timer. It will restart the server on no response.
 For details about watchdog see https://www.kernel.org/doc/Documentation/watchdog/watchdog-api.txt.
 
 Example log...
